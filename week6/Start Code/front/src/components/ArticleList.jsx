@@ -14,7 +14,7 @@ export default function ArticleList() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetchArticles(); // Fetch all articles when component mounts
+    fetchArticles(); 
   }, []);
 
   const fetchArticles = async () => {
